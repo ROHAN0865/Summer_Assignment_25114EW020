@@ -3,10 +3,14 @@ using namespace std;
 
 int main()
 {
-  int n,a=2,key=0; //0 and 1 are not prime number 
+  int n,a=2,key=0; 
   cout<<"enter the to be check ";
   cin>>n;
-  for(n;n>a;a++){
+  //0 and 1 are not prime number 
+  if(n<=1)
+    cout<<"it is not a prime number" ;
+    else{
+  for(a=2;a<n;a++){
     if(n%a==0){
        key++;
     }
@@ -17,4 +21,5 @@ int main()
   }else{
     cout<<"it is a prime number" ;
   }
+}
 }
