@@ -7,7 +7,7 @@ int main()
     cout<<"enter the term upto which u want to print fibonachi series ";
     cin>>n;
     cout<<a <<'\t' <<b<<"\t";
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-2;i++){
         c=a+b;
         cout<<c <<"\t";
         a=b;
