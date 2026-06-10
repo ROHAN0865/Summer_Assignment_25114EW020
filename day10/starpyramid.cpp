@@ -14,10 +14,10 @@ int main()
             cout << " ";
         }
         for(int k = 1; k <= i; k++) {
-            cout << "X";
+            cout << "*";
         } 
         for(int l=2;l<=i;l++){
-            cout<<"X";
+            cout<<"*";
         }
         cout << "\n";
     }
